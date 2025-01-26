@@ -6,6 +6,7 @@
 // import { LocalizationProvider } from "@mui/x-date-pickers";
 // import { AdapterDateFns } from "@mui/x-date-pickers/AdapterDateFns";
 // import { DatePicker } from "@mui/x-date-pickers/DatePicker";
+// import { TextField } from "@mui/material"
 
 // interface Item {
 //   status: string;
@@ -126,17 +127,17 @@
 //               value={minDate}
 //               onChange={(newValue) => setMinDate(newValue)}
 //               renderInput={(params) => (
-//                 <input {...params} className="border p-2 rounded-lg w-full" />
+//                 <TextField {...params} className="border p-2 rounded-lg w-full" />
 //               )}
 //             />
-//             <DatePicker
+//             {/* <DatePicker
 //               label="Max Date"
 //               value={maxDate}
 //               onChange={(newValue) => setMaxDate(newValue)}
 //               renderInput={(params) => (
-//                 <input {...params} className="border p-2 rounded-lg w-full" />
+//                 <TextField {...params} className="border p-2 rounded-lg w-full" />
 //               )}
-//             />
+//             /> */}
 //           </div>
 //         </LocalizationProvider>
 //       </div>
