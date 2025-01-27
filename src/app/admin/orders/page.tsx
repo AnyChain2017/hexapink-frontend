@@ -1,7 +1,14 @@
+"use client";
+
 import React from 'react'
+import AdminHeader from "@/components/Dashboard/AdminHeader";
+import { PiPackage } from "react-icons/pi";
 
 export default function Orders() {
   return (
-    <div>Orders page</div>
+    <div>
+      <AdminHeader icon={<PiPackage />} label="Orders" />
+
+    </div>
   )
 }

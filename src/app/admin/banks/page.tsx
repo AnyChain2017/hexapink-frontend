@@ -1,7 +1,14 @@
-import React from 'react'
+"use client";
 
-export default function Bank() {
+import React from 'react'
+import AdminHeader from "@/components/Dashboard/AdminHeader";
+import { PiBankLight } from "react-icons/pi";
+
+export default function Banks() {
   return (
-    <div>Bank page</div>
+    <div>
+      <AdminHeader icon={<PiBankLight />} label="Banks" />
+
+    </div>
   )
 }
