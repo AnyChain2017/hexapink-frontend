@@ -10,14 +10,9 @@ interface HexapinkCardProps {
   location: string;
   folder: string;
 }
-const HexapinkCard_M: React.FC<HexapinkCardProps> = ({
-  img_1,
-  img_2,
-  location,
-  folder,
-}) => {
+const HexapinkCard_M: React.FC<HexapinkCardProps> = ({img_1, img_2, location, folder,}) => {
   return (
-    <div className="min-w-[90%] min-h-[360px] max-w-[90%] max-h-[360px] m-8 rounded-2xl bg-[#FFE5EE] relative -z-20">
+    <div className="min-w-[360px] max-w-[360px] min-h-[360px] max-h-[360px] m-8 rounded-2xl bg-[#FFE5EE] relative -z-20">
       <div className="absolute bottom-0 right-0 w-full h-auto -z-10">
         <Image
           src={img_1}

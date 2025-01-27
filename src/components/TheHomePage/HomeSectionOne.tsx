@@ -15,8 +15,8 @@ export default function HomeSectionOne() {
   };
   return (
     <div className="w-full flex flex-col items-center lg:flex-row relative">
-      <div className="absolute top-0 left-0 -z-50 w-full h-[800px] bg-[#fff5f8] opacity-50"></div>
-      <div className="sm:ml-[7%] flex flex-col justify-start items-left gap-0 lg:w-[40%] md:w-[60%] w-[80%] sm:mt-20 mt-16 lg:h-[900px] md:h-[800px]">
+      {/* <div className="absolute top-0 left-0 -z-50 w-full h-[800px] bg-[#fff5f8] opacity-50"></div> */}
+      <div className="sm:ml-[7%] flex flex-col justify-start items-left gap-0 lg:w-[40%] md:w-[60%] w-[80%] sm:mt-20 mt-16 lg:h-[700px] md:h-[600px]">
         <h1 className="font-[kanit-bold] sm:text-[64px] text-[32px]">
           Think Data,
         </h1>
