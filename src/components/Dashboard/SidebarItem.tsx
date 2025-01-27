@@ -6,10 +6,10 @@ import { usePathname } from "next/navigation";
 
 export default function SidebarItem(data: SidebarItemType) {
   const pathName = usePathname();
-  const isActive = pathName === `/main/${data.link}`;
+  const isActive = pathName === `/${data.type}/${data.link}`;
 
   return (
-    <Link href={`/main/${data.link}`}>
+    <Link href={`/${data.type}/${data.link}`}>
       <div
         className={`w-full flex items-center gap-2 p-2 ${
           isActive ? "border border-light-gray3 bg-light-gray rounded-lg" : ""
